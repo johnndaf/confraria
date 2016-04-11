@@ -40,7 +40,16 @@
                         </ul>
                     </li>
                     <li><a href="#">Regras</a></li>
-                    <li><a href="#">Administrativo</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Administrativo<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Cadastrar Usuario</a></li>
+                            <li><a href="#">Cadastrar Torneio</a></li>
+                            <li><a href="#">Cadastrar Jogo</a></li>
+                            <li><a href="#">Cadastrar Resultado</a></li>
+                            <li><a href="#">Cadastrar Enquete</a></li>
+                            </ul>
+                    </li>
                     <li><a href="#">Logout</a></li>
                 </ul>
             </div>
